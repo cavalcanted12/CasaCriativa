@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Ideias - Casa Criativa</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body id="page-ideas">
+
+<div id="container">
+    <header>
+        <a href="/">
+            <img src="/logo.png" alt="Imagem da Logomarca">
+        </a>
+        <nav>
+            <li><a href="/">Inicio</a></li>
+            <li><a class="button" href="#" onclick="onOff()">Nova Ideia</a></li>
+        </nav>
+    </header>
+    <section id="title">
+        <p>Em Exibição</p>
+        <h1>Ideias</h1>
+    </section>
+    <main>
+        <section id="ideas">
+            <div class="idea">
+                <img src="https://image.flaticon.com/icons/svg/2729/2729007.svg" alt=" Imagem de curso de Programação">
+                <div class="content">
+                    <h3>Cursos de Programação</h3>
+                    <p>Estudo</p>
+                    <div class="description">
+                        Você será capaz de entrar de vez no mundo da programação de sistemas.
+                        Você será capaz de ir para a próxima fase, seja ela de desenvolvimento web, mobile, games e etc.
+                        Você se sentirá confortável com os conceitos de informática essenciais para quem trabalha na área.
+                    </div>
+                    <a href="#">Ir para a Ideia</a>
+                </div>
+            </div>
+
+            <div class="idea">
+                <img src="https://image.flaticon.com/icons/svg/2729/2729005.svg" alt="Imagem de Exercícios">
+                <div class="content">
+                    <h3>Exercícios</h3>
+                    <p>Saúde</p>
+                    <div class="description">
+                        A prática de exercícios físicos envolve muito mais que estética, 
+                        uma vez que são inúmeros os benefícios proporcionados a quem pratica algum tipo de atividade.
+                        Os exercícios físicos podem ser agradáveis e não precisam ser tediosos. 
+                    </div>
+                    <a href="#">Ir para a Ideia</a>
+                </div>
+            </div>
+
+            <div class="idea">
+                <img src="https://image.flaticon.com/icons/svg/2729/2729027.svg" alt=" Imagem de Meditação">
+                <div class="content">
+                    <h3>Meditação</h3>
+                    <p>Mentalidade</p>
+                    <div class="description">
+                        A meditação é um conjunto de técnicas de concentração com o objetivo de alcançar a plenitude mental e emocional, 
+                        e os benefícios que a prática milenar traz à saúde e bem-estar já estão mais do que comprovados.
+                        Não se sabe ao certo sua origem, mas ela é parte da tradição de muitos povos e culturas.
+                    </div>
+                    <a href="#">Ir para a Ideia</a>
+                </div>
+            </div>
+
+
+                        <div class="idea">
+                <img src="https://image.flaticon.com/icons/svg/1451/1451278.svg" alt=" Imagem de Karaoke">
+                <div class="content">
+                    <h3>Karaokê</h3>
+                    <p>Diversão em Família</p>
+                    <div class="description">
+                        O karaokê é um passatempo de origem japonesa no qual as pessoas cantam acompanhando versões instrumentais de músicas.
+                        A música tocada é gravada sem voz. O cantor e o público podem ouvir a música e o cantor ler o texto na tela ao cantar a música. 
+                    </div>
+                    <a href="#">Ir para a Ideia</a>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+    <footer>
+        com ❤ <a href="https://www.linkedin.com/in/rhuan-cavalcante-1978a01a4" target="_blank">@cavalcanted12</a>
+    </footer>
+</div>
+                <!-- modal-->
+                <div id="modal" class="hide">
+                    <div class="content">
+                        <h1>Nova Ideia</h1>
+    
+                        <!-- Formulário -->
+    
+                        <form action="">
+                        
+                            <div class="input-wrapper">
+                                <label for="title">Título da Ideia</label>
+                                <input type="text" name="title">
+                            </div>
+                        
+                            <div class="input-wrapper">
+                                <label for="category">Categoria</label>
+                                <input type="text" name="category">
+                            </div>
+                        
+                            <div class="input-wrapper">
+                                <label for="image">Link da Imagem</label>
+                                <input type="url" name="image">
+                            </div>
+                        
+                            <div class="input-wrapper">
+                                <label for="description">Digite uma Descrição para essa Ideia</label>
+                                <textarea name="description" cols="30" rows="10"></textarea>
+                            </div>
+                        
+                            <div class="input-wrapper">
+                                <label for="link">Link da Ideia</label>
+                                <input type="url" name="link">
+                            </div>
+                            <a href="#" onclick="onOff()">Voltar</a>
+                            <button>Salvar</button>
+                        
+                        
+                        </form>
+    
+                    </div>
+    
+                </div>
+               <script src="/scripts.js"></script>
+    
+</body>
+</html>
